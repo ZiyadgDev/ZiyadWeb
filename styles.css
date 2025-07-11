@@ -181,19 +181,28 @@ a{
 }
 
 .GameCard{
+    font-family: sans-serif;
     margin: auto;
-    text-align: left;
+    margin-bottom: 10%;
+    padding: 0 0 5% 0;
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.297);
     width: 40%;
     border-radius: 5%;
     border: 2px solid black;
 
-    p{
-        margin: 2% 0;
+    h2{
+        margin: 5% 0;
+        font-size: 225%;
     }
 
     img{
         width: 20%;
+        border: 2px solid white;
+    }
+
+    p{
+        margin: 2% 0;
     }
 }
 
@@ -282,5 +291,21 @@ a{
 
     #ZDE{
         width: 80%;
+    }
+    
+    .GameCard{
+        h2{
+            font-size: 100%;
+        }
+    
+        img{
+            width: 40%;
+        }
+    
+        p{
+            margin: 4% 0;
+            font-size: 75%;
+            text-align: center;
+        }
     }
 }
