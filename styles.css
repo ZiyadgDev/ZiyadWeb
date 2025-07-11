@@ -57,9 +57,10 @@ h4{
 }
 
 p{
-    font-size: 120%;
+    font-size: 150%;
     font-family: sans-serif;
-    margin-left: 5%;
+    margin: 0 5%;
+    line-height: 200%;
 }
 
 #MainMenu{
@@ -147,6 +148,7 @@ a{
     width: 78%; 
     border-left: 2px dashed white; 
     margin-left: 15%;
+    margin-bottom: 5%;
 }
 
 #Ediv{
@@ -187,8 +189,8 @@ a{
     padding: 0 0 5% 0;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.297);
-    width: 40%;
-    border-radius: 5%;
+    width: 80%;
+    border-radius: 10%;
     border: 2px solid black;
 
     h2{
