@@ -3,7 +3,6 @@ body{
     background-image: linear-gradient(45deg, #12161f, #1e4593);
     margin: 0;
     color: #E2E8F0;
-    text-align: right;
 }
 
 header{
@@ -60,7 +59,6 @@ h4{
 p{
     font-size: 120%;
     font-family: sans-serif;
-    text-align: left;
     margin-left: 5%;
 }
 
@@ -138,6 +136,11 @@ a{
     margin-bottom: 10%;
 }
 
+#Enna-img{
+    width: 20%; 
+    float: right;
+}
+
 #Energy{
     padding-top: 11%; 
     padding-left: 1%; 
@@ -146,10 +149,138 @@ a{
     margin-left: 15%;
 }
 
+#Ediv{
+    text-align: left; 
+    margin-left: 5%;
+}
+
+#Energy-img{
+    width: 12.5%;
+    float: left;
+}
+
 #Kaa{
     padding-top: 14%; 
     text-align: right; 
     border-right: 2px dashed white; 
     width: 78%;
     margin-bottom: 4%;
+}
+
+#kaa-img{
+    width: 20%; 
+    float: right;
+}
+
+#ZDE{
+    width: 60%;
+}
+
+#AllMy{
+    margin-bottom: 20%;
+}
+
+.GameCard{
+    margin: auto;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.297);
+    width: 40%;
+    border-radius: 5%;
+    border: 2px solid black;
+
+    p{
+        margin: 2% 0;
+    }
+
+    img{
+        width: 20%;
+    }
+}
+
+/* Phone screens */
+@media (max-width: 768px) {
+    header{
+        padding: 3%;
+    }
+    
+    footer{
+        padding: 0.7%;
+    }
+    
+    h1{
+        font-size: 350%;
+    }
+    
+    h3{
+        font-size: 150%;
+    }
+    
+    h4{
+        font-size: 50%;
+    }
+    
+    #logo{
+        margin-right: 10%;
+    }
+
+    #UPBGE{
+        width: 35%;
+    }
+    
+    p{
+        font-size: 100%;
+        font-family: sans-serif;
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    #MainMenu{
+        width: 10%;
+    }
+    
+    #Games{
+        padding: 18% 10.2%;
+        margin-right: 0;
+    }
+    
+    li{
+        margin-bottom: 5%;
+        font-size: 125%;
+    }
+    
+    #Enna{
+        width: 64%;
+    }
+
+    #Enna-img{
+        width: 35%; 
+    }
+    
+    #Energy{
+        width: 70%;
+        padding-left: 5%;
+        margin-left: 22%;
+    }
+
+    #Ediv{
+        margin-left: 5%;
+    }
+
+    #Energy-img{
+        width: 20%;
+    }
+    
+    #Kaa{
+        width: 65%;
+        margin-bottom: 10%;
+    }  
+    
+    #kaa-img{
+        width: 35%; 
+        float: right;
+    }
+
+    #ZDE{
+        width: 80%;
+    }
 }
